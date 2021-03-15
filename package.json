@@ -1,11 +1,11 @@
 {
   "name": "@ehcan/envparser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "You can parse multiple types for your environment variables.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build" : "tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/Ehcaning/envparser#readme",
   "devDependencies": {
+    "@types/node": "^14.14.34",
     "typescript": "^4.2.3"
   },
-  "files": ["dist/**/*"]
+  "files": [
+    "dist/**/*"
+  ]
 }
