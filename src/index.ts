@@ -25,5 +25,9 @@ export function str(key: string, defaultValue: string): string {
 }
 
 export function array(key: string, defaultValue: string[]): string[] {
-	return read(key).split(',') || defaultValue;
+	const value: string = read(key);
+	if (value === '') {
+		return defaultValue;
+	}
+	return value.split(',');
 }
