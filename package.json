@@ -1,6 +1,6 @@
 {
   "name": "@ehcan/envparser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "You can parse multiple types for your environment variables.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
